@@ -4,6 +4,7 @@ Code Submission for Group 8 (Jacob Karvelis, Geoffrey Lin, Ryan Moore, and Steve
 Implementation using a clone of Corentin Jemine's Real-Time Voice Cloning with a Spanish dataset instead of English.
 
 Included is the original code from Coretin Jemine's repository along with a trained model from a Spanish dataset from LibriSpeech. Also included is the Montreal Forced Aligner program written by Steven.
+Link to original repository: https://github.com/CorentinJ/Real-Time-Voice-Cloning
 
 ### 1. Requirements (on CS Servers (no GPU))
 1. Create and activate a Conda environment (preferably in Python v3.7.0)
