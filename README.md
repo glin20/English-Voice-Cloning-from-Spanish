@@ -12,9 +12,17 @@ Included is the original code from Coretin Jemine's repository along with a trai
 4. Install from requirements.txt (pip install -r requirements.txt)
 5. Install portaudio (conda install portaudio)
 
-### 2. Running
+### 2. Downloading Models
+1. Navigate to saved_models
+2. Run curl -L "https://drive.usercontent.google.com/download?id=1TkWlsRfKxzKqQDWE-UJPuYzmto2BeqBO&confirm=xxx" -o spanish_1.zip
+3. Unzip spanish_1.zip using unzip spanish_1.zip -d spanish_1
+4. Run curl -L "https://drive.usercontent.google.com/download?id=1U_lllUfjUqgdA9l4ZJs_MPI5Y38UJgZ_&confirm=xxx" -o default.zip
+5. Unzip using unzip default.zip
+
+### 3. Running
 1. Launch using python demo_toolbox.py
 2. Select the Spanish-1 under Encoder, Synthesizer, and Vocoder
 3. Enter text you want to be said in generation
 4. Record or choose a audio file under embeddings
 5. Synthesize and vocode
+
