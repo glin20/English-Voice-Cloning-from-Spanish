@@ -27,6 +27,7 @@ Link to original repository: https://github.com/CorentinJ/Real-Time-Voice-Clonin
 3. Enter text you want to be said in generation
 4. Record or choose a audio file under embeddings
 5. Synthesize and vocode
+   	* Since it's running on CS Servers you'll likely have to use an application such as MobaXterm in order to access the file and play the audio through it.
 
 ### Extra (Running the Aligner)
 1. First run the split_transcripts.py file specifically with line 34 uncommented and line 35 commented out. Pass it the --t transcript file which should be the one file containing every transcript for the whole dataset, and give it the -o argument to specify the output directory, which should be the directory where the dataset is kept. This will split the transcript file into individual transcript files for each book. These files are what the script that preprocesses librispeech data for the MFA expects.
